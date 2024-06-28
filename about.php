@@ -127,6 +127,10 @@
             font-family:Georgia;
             
         }
+        #about-head #para{
+          color:#841b2d;
+          font-family: serif;
+        }
 
         /* Footer starts here */
         footer{
@@ -260,10 +264,9 @@
       
     <div>
         <ul id="navbar">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a class="active" href="about.html">About</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="home.php">Home</a></li>
+            <li><a href="shop.php">Shop</a></li>
+            <li><a class="active" href="about.php">About</a></li>
             <li><a href="login_reg.php">Login/Signup</a></li>
             <li id="lg-bag"><a href="cart.html">Cart</a><i class="fa-solid fa-cart-shopping"></i></li>
             <a href="#" id="close"><i class="fa-sharp fa-solid fa-xmark"></i></a>
@@ -279,13 +282,12 @@
     <h3 >About Us</h3>
    </section>
 
-    <section id="about-head" class="section-p1">
-        
+    <section id="about-head" class="section-p1">        
         <img src="img\36b885107148725.5fa08100392dd.jpg" alt="">        
         <div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus dolore eaque asperiores error esse officia excepturi saepe? Corporis assumenda unde omnis voluptates, distinctio incidunt fugiat porro ipsa blanditiis sapiente quae ipsam tempora, aliquid animi molestiae, delectus nulla! Natus porro laudantium sequi numquam quia cum minima voluptatum mollitia accusantium. A, eos.</p>
             <br>
-            <p></p>
+            <p id="para"><strong>Our objective is to provide our customers with the best quality products & services.</strong></p>
         </div>   
     </section>
 
