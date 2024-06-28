@@ -106,7 +106,7 @@
     height: 20vh;
     background-size: cover;
     background-position: center;
-    background-image: url("img/pexels-steve-1000366.jpg");
+    background-image: url("img/logo/pexels-steve-1000366.jpg");
         }
 
         #about-head{
