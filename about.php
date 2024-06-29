@@ -132,6 +132,32 @@
           font-family: serif;
         }
 
+        #newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 40px;
+    background-image: url(img/logo/banner7.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    border-color: #000;
+    
+}
+
+#newsletter  h3{
+    font-style:italic;
+    color: #d6cdcd;
+    font-weight: 900;
+    font-size :50px;
+
+}
+
+#newsletter span{
+    color: #d3c9c9;
+}
+
+
         /* Footer starts here */
         footer{
           display: flex;
@@ -232,6 +258,8 @@
     padding-left: 20px;
 }
 
+
+
 #close{
     display: initial;
    position:absolute;
@@ -290,6 +318,15 @@
             <p id="para"><strong>Our objective is to provide our customers with the best quality products & services.</strong></p>
         </div>   
     </section>
+     
+
+    <section id="newsletter" class="section-p1">
+          <div class="newstext">
+            <h3><b>FeMac Fasion </b></h3>
+             <h4><span>FeMac Fasion</span> gives you the orignal and the branded products.</h4>
+          </div>
+
+        </section>
 
     <footer class="section-p1">
         <div class="col">
